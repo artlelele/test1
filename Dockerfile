@@ -1,8 +1,8 @@
-# Базовий образ з nginx
+# Base image with nginx
 FROM nginx:alpine
 
-# Копіюємо наші файли в стандартну директорію nginx
+# Copy our files to the standard nginx directory
 COPY devops_page.html /usr/share/nginx/html/index.html
 
-#порт для сторінки
+#port for the page
 EXPOSE 80
