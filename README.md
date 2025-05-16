@@ -1,15 +1,15 @@
-1.спочатку скачати докер десктоп на офіційному сайті
+1. First download Docker Desktop from the official website
 
-2.запустити докер
+2. Run Docker
 
-3.на диску зробити папку куди закинути html сторінку й Dockerfile 
+3. Create a folder on the disk where you can put the html page and Dockerfile
 
-4.далі через термінал (можна відкрити в докер дестоп або просто в відкрийтке PowerShell якщо на вінді)
+4. Then use the terminal (you can open it in Docker Desktop or simply open PowerShell if you are on Windows)
 
-5.через команду cd вказуємо шлях до нашої папки яку ми створили 
+5. Use the cd command to specify the path to our folder that we created
 
-6.тепер прописуємо docker build -t {пишемо любу назву} й ентер
+6. Now type docker build -t {write any name} and press enter
 
-7.якщо все пройшло успішно то водимо команду docker run -d -p 8080:80 --name {пишемо любу назву} {пишем назву яку ми вказали в 6 пункті} 
+7. If everything went well, run the docker run -d -p 8080:80 --name {write any name} {write the name that we specified in point 6}
 
-8.тепер заходимо в браузер й пишемо localhost:8080 й кафуєм
+8. Now go to the browser and type localhost:8080 
