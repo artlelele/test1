@@ -4,5 +4,5 @@ FROM nginx:alpine
 # Copy our files to the standard nginx directory
 COPY devops_page.html /usr/share/nginx/html/index.html
 
-#port for the page
+#port for site
 EXPOSE 80
