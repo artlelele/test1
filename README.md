@@ -8,7 +8,7 @@
 
 5. Use the cd command to specify the path to our folder that we created
 
-6. Now type docker build -t {write any name} and press enter
+6. Now type docker build -t {write any name} . and press enter
 
 7. If everything went well, run the docker run -d -p 8080:80 --name {write any name} {write the name that we specified in point 6}
 
